@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analytics</title>
+    <script>
+        function fetchData(url, elementId) {
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    document.getElementById(elementId).innerHTML = JSON.stringify(data, null, 2);
+                });
+        }
+    </script>
+</head>
+<body>
+    <h1>Analytics</h1>
+    <button onclick="fetchData('/analytics/patient-visits', 'patientVisits')">Patient Visits</button>
+    <pre id="patientVisits"></pre>
+    <button onclick="fetchData('/analytics/doctor-performance', 'doctorPerformance')">Doctor Performance</button>
+    <pre id="doctorPerformance"></pre>
+    <button onclick="fetchData('/analytics/medication-statistics', 'medicationStatistics')">Medication Statistics</button>
+    <pre id="medicationStatistics"></pre>
+</body>
+</html>

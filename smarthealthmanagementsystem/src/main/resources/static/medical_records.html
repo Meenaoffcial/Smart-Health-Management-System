@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Medical Records CRUD & Pie Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    
+
+    <h2>Medical Data</h2>
+    <canvas id="bpPieChart"></canvas>
+
+    <script>
+        const baseUrl = 'http://localhost:8080/medical-records';
+
+        // Patient 1 Data Pie Chart
+        const patient1Data = {
+            bloodPressure: 122,
+            heartRate: 76,
+            weight: 63
+        };
+
+        const ctx = document.getElementById('bpPieChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Blood Pressure: 122', 'Heart Rate: 76', 'Weight: 63'],
+                datasets: [{
+                    data: [patient1Data.bloodPressure, patient1Data.heartRate, patient1Data.weight],
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.5)',
+                        'rgba(54, 162, 235, 0.5)',
+                        'rgba(255, 206, 86, 0.5)'
+                    ],
+                    borderColor: [
+                        'rgba(255, 99, 132, 1)',
+                        'rgba(54, 162, 235, 1)',
+                        'rgba(255, 206, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        position: 'right'
+                    },
+                    tooltip: {
+                        enabled: false
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>

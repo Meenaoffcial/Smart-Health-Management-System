@@ -1,0 +1,346 @@
+2025-04-06 12:19:42.773 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 23176 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 12:19:42.797 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 12:19:46.615 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 12:19:46.617 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 12:19:46.779 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 12:19:47.186 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 12:19:47.323 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 12:19:47.406 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 12:19:48.083 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 12:19:49.071 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@380fdcf2
+2025-04-06 12:19:49.076 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 12:19:49.279 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 12:19:49.322 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 12:19:51.754 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 12:19:53.459 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 12:19:54.922 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 13.319 seconds (process running for 16.036)
+2025-04-06 12:20:11.656 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 12:24:02.387 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 12:24:02.494 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 12:24:11.602 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 14264 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 12:24:11.606 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 12:24:14.781 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 12:24:14.782 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 12:24:14.878 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 12:24:15.201 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 12:24:15.372 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 12:24:15.450 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 12:24:16.216 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 12:24:17.190 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6fcca1
+2025-04-06 12:24:17.197 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 12:24:17.379 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 12:24:17.438 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 12:24:19.667 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 12:24:20.835 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 12:24:22.343 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 11.72 seconds (process running for 13.062)
+2025-04-06 12:24:46.195 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 12:32:53.958 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 12:32:53.980 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 12:33:01.214 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 25132 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 12:33:01.216 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 12:33:04.296 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 12:33:04.297 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 12:33:04.418 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 12:33:04.692 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 12:33:04.865 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 12:33:04.949 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 12:33:05.696 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 12:33:06.499 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@846b47
+2025-04-06 12:33:06.505 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 12:33:06.665 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 12:33:06.720 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 12:33:08.795 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 12:33:09.793 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 12:33:11.268 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 10.971 seconds (process running for 12.36)
+2025-04-06 12:33:29.008 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 12:46:48.795 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 12:46:48.858 [RMI TCP Connection(18)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 12:46:57.463 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 8276 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 12:46:57.468 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 12:47:00.509 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 12:47:00.509 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 12:47:00.634 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 12:47:01.041 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 12:47:01.222 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 12:47:01.323 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 12:47:01.909 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 12:47:02.813 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6fcca1
+2025-04-06 12:47:02.822 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 12:47:02.954 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 12:47:03.008 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 12:47:05.177 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 12:47:06.480 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 12:47:07.988 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 11.569 seconds (process running for 12.968)
+2025-04-06 12:47:39.451 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 12:47:40.590 [http-nio-8080-exec-2] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Creating medical record: com.example.smarthealthmanagementsystem.entity.PatientHealthData@23e173f
+2025-04-06 12:49:34.427 [http-nio-8080-exec-6] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+2025-04-06 12:49:42.812 [http-nio-8080-exec-7] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving medical record with ID: 1
+2025-04-06 12:50:43.045 [http-nio-8080-exec-9] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving all medical records
+2025-04-06 12:51:36.004 [http-nio-8080-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2023-1-01": not a valid representation (error: Failed to parse Date value '2023-1-01': Cannot parse date "2023-1-01": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))]
+2025-04-06 12:52:03.655 [http-nio-8080-exec-3] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2023-1-01": not a valid representation (error: Failed to parse Date value '2023-1-01': Cannot parse date "2023-1-01": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))]
+2025-04-06 12:52:36.483 [http-nio-8080-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.sql.Date` from String "2023-1-01": not a valid representation (error: Failed to parse Date value '2023-1-01': Cannot parse date "2023-1-01": while it seems to fit format 'yyyy-MM-dd', parsing fails (leniency? null))]
+2025-04-06 12:53:36.478 [http-nio-8080-exec-7] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving medical record with ID: 1
+2025-04-06 12:56:19.683 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 12:56:19.767 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 12:56:28.717 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 22692 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 12:56:28.722 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 12:56:32.034 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 12:56:32.035 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 12:56:32.167 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 12:56:32.553 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 12:56:32.706 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 12:56:32.818 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 12:56:33.554 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 12:56:34.537 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@58021c3c
+2025-04-06 12:56:34.544 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 12:56:34.768 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 12:56:34.830 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 12:56:37.253 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 12:56:38.648 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 12:56:39.998 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 12.289 seconds (process running for 13.692)
+2025-04-06 12:57:06.100 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 12:58:07.306 [http-nio-8080-exec-5] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Creating medical record: com.example.smarthealthmanagementsystem.entity.PatientHealthData@24609444
+2025-04-06 12:58:17.240 [http-nio-8080-exec-8] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving medical record with ID: 1
+2025-04-06 12:59:09.787 [http-nio-8080-exec-10] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving all medical records
+2025-04-06 12:59:10.539 [http-nio-8080-exec-1] INFO  c.e.s.s.i.PatientHealthDataServiceImpl - Retrieving all medical records
+2025-04-06 13:00:50.917 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-04-06 13:03:32.264 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:03:32.296 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:03:38.845 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 7788 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:03:38.850 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:03:42.003 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:03:42.418 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:03:42.563 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:03:42.627 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:03:43.198 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:03:43.899 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2152fde5
+2025-04-06 13:03:43.903 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:03:44.016 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:03:44.055 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:03:46.333 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:03:47.391 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:03:48.936 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 10.968 seconds (process running for 12.328)
+2025-04-06 13:04:43.646 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:14:55.775 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m41s661ms556µs).
+2025-04-06 13:18:11.772 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:18:11.847 [RMI TCP Connection(13)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:18:18.276 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 15460 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:18:18.283 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:18:21.648 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:18:21.649 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:18:21.797 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:18:22.194 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:18:22.400 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:18:22.494 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:18:23.204 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:18:24.166 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1e8bccfb
+2025-04-06 13:18:24.173 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:18:24.356 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:18:24.398 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:18:27.004 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:18:28.392 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:18:29.995 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 12.731 seconds (process running for 14.085)
+2025-04-06 13:18:41.687 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:23:43.576 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:23:43.622 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:23:50.670 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 19972 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:23:50.675 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:23:54.070 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:23:54.071 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:23:54.229 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:23:54.652 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:23:54.858 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:23:54.934 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:23:55.753 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:23:56.803 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ef8090b
+2025-04-06 13:23:56.809 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:23:56.984 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:23:57.037 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:23:59.456 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:24:00.878 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:24:02.279 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 12.62 seconds (process running for 14.086)
+2025-04-06 13:24:13.377 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:25:35.037 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:25:35.060 [RMI TCP Connection(5)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:25:43.173 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 8316 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:25:43.178 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:25:46.206 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:25:46.207 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:25:46.319 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:25:46.589 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:25:46.683 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:25:46.750 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:25:47.352 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:25:48.013 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@70ee1963
+2025-04-06 13:25:48.016 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:25:48.138 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:25:48.173 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:25:50.287 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:25:51.596 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:25:52.772 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 10.506 seconds (process running for 12.0)
+2025-04-06 13:26:36.575 [http-nio-8080-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:29:00.327 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:29:00.349 [RMI TCP Connection(7)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:29:07.839 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 17360 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:29:07.844 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:29:10.577 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:29:10.578 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:29:10.689 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:29:10.944 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:29:11.079 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:29:11.127 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:29:11.711 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:29:12.527 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2b6fcca1
+2025-04-06 13:29:12.533 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:29:12.650 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:29:12.688 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:29:14.535 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:29:15.683 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:29:17.047 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 10.21 seconds (process running for 11.573)
+2025-04-06 13:29:29.373 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:31:16.924 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:31:16.947 [RMI TCP Connection(4)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 13:31:24.633 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 28892 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 13:31:24.637 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 13:31:27.540 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 13:31:27.540 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 13:31:27.681 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 13:31:27.973 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 13:31:28.101 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 13:31:28.153 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 13:31:28.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 13:31:29.543 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2328ec73
+2025-04-06 13:31:29.548 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 13:31:29.675 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 13:31:29.716 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 13:31:31.637 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 13:31:32.794 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 13:31:34.270 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 10.591 seconds (process running for 11.953)
+2025-04-06 13:31:47.193 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-04-06 13:37:12.233 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 13:37:12.276 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 14:13:56.656 [main] INFO  c.e.s.SmarthealthmanagementsystemApplicationTests - Starting SmarthealthmanagementsystemApplicationTests using Java 21.0.6 with PID 10152 (started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 14:13:56.661 [main] INFO  c.e.s.SmarthealthmanagementsystemApplicationTests - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 14:14:00.461 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 14:14:00.637 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 14:14:00.721 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 14:14:01.580 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 14:14:02.662 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c956dda
+2025-04-06 14:14:02.668 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 14:14:02.856 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 14:14:02.899 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 14:14:04.910 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 14:14:06.429 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 14:14:08.109 [main] INFO  c.e.s.SmarthealthmanagementsystemApplicationTests - Started SmarthealthmanagementsystemApplicationTests in 12.249 seconds (process running for 14.563)
+2025-04-06 14:14:09.143 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 14:14:09.171 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2025-04-06 15:24:49.933 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Starting SmarthealthmanagementsystemApplication using Java 21.0.6 with PID 24784 (C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem\target\classes started by meena in C:\Users\meena\OneDrive\Documents\smarthealthmanagementsystem)
+2025-04-06 15:24:49.939 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - No active profile set, falling back to 1 default profile: "default"
+2025-04-06 15:24:54.595 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-04-06 15:24:54.596 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.39]
+2025-04-06 15:24:54.766 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-04-06 15:24:55.254 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-04-06 15:24:55.444 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.11.Final
+2025-04-06 15:24:55.574 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2025-04-06 15:24:56.568 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2025-04-06 15:24:57.987 [main] INFO  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1c8e8fed
+2025-04-06 15:24:57.995 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2025-04-06 15:24:58.236 [main] WARN  org.hibernate.orm.deprecation - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-04-06 15:24:58.318 [main] INFO  o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-04-06 15:25:01.701 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-04-06 15:25:03.817 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-04-06 15:25:06.102 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Started SmarthealthmanagementsystemApplication in 17.971 seconds (process running for 22.971)
+2025-04-06 15:25:06.117 [main] INFO  c.e.s.SmarthealthmanagementsystemApplication - Smart Health Management System application started successfully.
+2025-04-06 15:30:19.950 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2025-04-06 15:30:20.004 [RMI TCP Connection(9)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
